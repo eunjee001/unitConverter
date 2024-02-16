@@ -21,12 +21,11 @@
 
 - ViewBinding
 - onSaveInstanceState
+  - UI 상태 저장
+  - 활동이 정지 되기 시작하면 인스턴스 상태 번들에  상태정보를 저장할 수 있도록 시스템이 onSaveInstanceState() 메서드 호출
+  - 활동이 추가적인 인스턴스 상태정보를 저장하려면 onSaveInstanceState()를 재정의하고, 활동이 예상치 못하게 소멸될 경우 저장되는 Bundle 객체에 키-값 쌍을 추가해야 한다.
  
----
-# View 결합
-view와 상호작용 하는 코드를 쉽게 작성할 수 있다.
-
-# onSaveInstanceState
-- UI 상태 저장   
-- 활동이 정지 되기 시작하면 인스턴스 상태 번들에  상태정보를 저장할 수 있도록 시스템이 onSaveInstanceState() 메서드 호출   
-- 활동이 추가적인 인스턴스 상태정보를 저장하려면 onSaveInstanceState()를 재정의하고, 활동이 예상치 못하게 소멸될 경우 저장되는 Bundle 객체에 키-값 쌍을 추가해야 한다.
+## 📸미리보기
+<p align="center">
+ <img src = "./capture.png">
+</p>
