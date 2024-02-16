@@ -26,6 +26,6 @@
   - 활동이 추가적인 인스턴스 상태정보를 저장하려면 onSaveInstanceState()를 재정의하고, 활동이 예상치 못하게 소멸될 경우 저장되는 Bundle 객체에 키-값 쌍을 추가해야 한다.
  
 ## 📸미리보기
-<p align="center">
+<p align="left">
  <img src = "./capture.png" width="200" height="350">
 </p>
