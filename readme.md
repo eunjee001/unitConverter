@@ -27,5 +27,5 @@
  
 ## 📸미리보기
 <p align="center">
- <img src = "./capture.png">
+ <img src = "./capture.png" width="70" height="150">
 </p>
